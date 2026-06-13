@@ -1,0 +1,446 @@
+.card{
+  border:1px solid rgb(90, 89, 89);
+  border-radius:10px;
+  box-shadow:5px 5px 5px hsl(0, 0%, 0%,0.1);
+  padding:20px;
+  margin:10px;
+  text-align:center;
+  max-width:250px;
+  display:inline-block;  
+  
+  
+
+}
+.card .card-image{
+  max-width:60%;
+  height:auto;
+  border-radius:50%;
+  margin-bottom:10px;
+
+
+}
+
+.card .card-title{
+  font-family:"Courier New",monospace;
+  margin:10px;
+  color:hsl(0, 0%, 30%);
+}
+
+.card .card-text{
+  font-family:Arial,sans-serif;
+  color:hsl(0, 0%, 30%);
+}
+.student{
+  font-family:Arial,sans-serif;
+  font-size:2em;
+  padding:10px;
+  border:1px solid hsl(0, 4%, 71%);
+
+
+
+  
+
+}
+.student p{
+  margin:0;
+}
+.welcome-message{
+  font-size:2.5em;
+  background-color:hsla(123, 86%, 41%, 0.1);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
+
+
+}
+.error-message{
+  font-size:2.5em;
+  background-color:hsla(123, 86%, 41%, 0.1);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
+
+
+}
+
+.list-category{
+  font-size:2.5em;
+  font-weight:bold;
+  color:hsl(0, 2%, 30%);
+  margin-bottom :10px;
+  text-align:center;
+  border:3px solid;
+  border-radius:5px;
+  background-color:hsl(0, 68%, 59%)
+
+}
+
+.list-items li{
+  font-size:2em;
+  list-style:none;
+  color:hsl(232, 55%, 26%);
+  text-align:center;
+  margin:0;
+
+
+}
+.list-items li:hover{
+  color:hsl(0,0%,45%);
+  cursor:pointer;
+
+}
+
+.counter-container{
+  text-align:center;
+  font-family:Arial,sans-serif;
+  border:3px solid hsl(0, 11%, 62%);
+  height:160px;
+  width:250px;
+  background-color: red;
+
+  
+  
+
+
+
+}
+.count-display{
+  font-size:2em;
+  margin-top:0;
+  margin-bottom:25px;
+
+}
+
+
+.counter-button{
+  width:130px;
+  height:30px;
+  font-size:1.5em;
+  font-weight:bold;
+  margin :0px 5px;
+  background-color: hsla(271, 92%, 35%, 0.651);
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+
+
+}
+
+.counter-button:hover{
+  background-color: rgb(198, 7, 96);
+}
+.color-picker-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.h{
+  margin:50px;
+  font-size:3rem;
+}
+.color-display{
+  width:300px;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:5px solid hsl(0, 5%, 59%);
+  border-radius:25px;
+  margin-bottom:25px;
+  transition:0.25 ease;
+  
+  
+
+  
+}
+
+.color-display p{
+  color:hsl(0, 76%, 36%);
+  font-size:2rem;
+  text-align:center;
+}
+
+.label{
+  font-size:1.5rem;
+  font-weight:bold;
+  margin-bottom:10px;
+  color:red;
+}
+input[type="color"]{
+  width:75px;
+  height:50px;
+  padding:5px;
+  border-radius:10px;
+  border:3px solid red;
+  
+}
+
+
+.todolist{
+  display:flex;
+  flex-direction:column;
+  
+  margin-left:150px;
+
+
+
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin-top:100px;
+  border: 5px solid hsl(276, 49%, 32%);
+  
+  height:auto;
+  
+  
+  
+
+}
+
+.doit{
+  font-size:2.5rem;
+  color:rgb(36, 192, 209);
+  font-weight:bold;
+}
+
+.input{
+  background-color:blueviolet;
+  padding:5px 5px;
+  font-weight:bold;
+  border-radius:5px;
+  color:aqua;
+  width:150px;
+  height:20px;
+  margin-right:5px;
+  border: 4px solid blue;
+  margin-bottom:20px;
+ 
+}
+.input:hover{
+  background-color: purple;
+}
+.input::placeholder{
+  color:aqua;
+  text-align:center;
+}
+.add-button{
+  font-weight:bold;
+   padding:5px 5px;
+   cursor:pointer;
+ 
+  background-color: green;
+  color:aqua;
+  border-radius:5px;
+  width:150px;
+  height:35px;
+  border: 4px solid blue;
+  transition:background-color 0.5 ease;
+
+
+  
+}
+.delete-button{
+  font-weight:bold;
+   padding:5px 5px;
+   cursor:pointer;
+ 
+  background-color: red;
+  color:aqua;
+  border-radius:5px;
+  width:80px;
+  height:35px;
+  border: 4px solid blue;
+  transition:background-color 0.5 ease;
+
+
+}
+.add-button:hover{
+  background-color: rgb(73, 228, 73);
+}
+.delete-button:hover{
+  background-color: rgb(243, 114, 114);
+
+}
+.down-button{
+  font-weight:bold;
+   padding:5px 5px;
+   cursor:pointer;
+ 
+  background-color: blue;
+  color:aqua;
+  border-radius:5px;
+  width:80px;
+  height:35px;
+  
+  transition:background-color 0.5 ease;
+
+
+}
+.up-button{
+  font-weight:bold;
+   padding:5px 5px;
+   cursor:pointer;
+   text-align:center;
+ 
+  background-color: blue;
+  color:aqua;
+  border-radius:5px;
+  width:80px;
+  height:35px;
+  
+  transition:background-color 0.5 ease;
+ 
+
+
+
+}
+.up-button:hover{
+  background-color: purple;
+
+}
+.down-button:hover{
+  background-color: purple;
+
+
+}
+
+
+.list{
+  display:flex;
+  
+  align-items:center;
+  gap: 10px ;
+  margin:10px;
+  font-size:1.2rem;
+  font-weight:bold;
+  padding:10px;
+  border:3px solid black;
+  border-radius:5px;
+  margin-bottom:20px;
+  
+  
+}
+
+.ol{
+ 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+}
+
+.text{
+  flex:1;
+  
+
+   width: 150px;        /* fixed width so buttons always start at same position */
+  min-width: 150px;    /* prevents it from shrinking */
+  text-align: left;
+
+}
+
+
+
+.clock-container{
+  backdrop-filter:blur(5px);
+  width:100vw;
+  padding:10px 0;
+  
+
+
+}
+
+
+.clock{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  color:black;
+  font-size:2rem;
+  font-weight:bold;
+  font-family:monospace;
+  text-align:center;
+  text-shadow:3px 3px 5px black;
+  text-align:center;
+
+
+  
+
+}
+
+.box{
+  border:3px,solid;
+  padding:25px;
+
+}
+
+.stopwatch{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color: grey;
+  border:5px solid ;
+  border-radius:50px;
+  padding:30px;
+  
+
+}
+.display{
+  font-size:5rem;
+  font-family:monospace;
+  font-weight:bold;
+  color:bisque;
+  text-shadow:2px 2px 2px rgb(228, 215, 215);
+  margin:25px;
+}
+.controls button{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:10px 20px;
+  margin:5px;
+  min-width:125px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition:background-color 0.5s ease;
+}
+
+.start{
+  background-color:greenyellow;
+
+
+}
+.start:hover{
+  background-color:rgb(31, 50, 2);
+
+  
+
+}
+.reset{
+  background-color:blue;
+
+
+}
+.reset:hover{
+  background-color:rgb(3, 3, 53);
+  
+  
+
+}
+.stop{
+  background-color:red;
+
+
+}
+.stop:hover{
+  background-color:rgb(60, 1, 1);
+  
+  
+
+}
+
