@@ -1,1 +1,1 @@
-react basic practice content credits =brocode built using react.js vite framework
+react using react.js vite framework
